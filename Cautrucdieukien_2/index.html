@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Bảng cửu chương</h1>
+    <script>
+        let sout , i , j;
+        sout = "<table border='1' width='300' cellspacing='0' cellpadding='15'>";
+        debugger;
+        for (i = 1 ; i <= 10 ; i++) {
+            sout += "<tr>";
+        for (j = 1 ; j <= 10 ; j++){
+            sout = sout + "<td>" + j + "*" + i + "=" + i * j + "</td>";
+        }
+        sout += "</tr>";
+            // j = 1;
+        }
+        sout += "</table>";
+        document.write(sout);
+    </script> -->
+
+    <script>
+        let number = prompt('Nhap so can in');
+        let count = 0;
+        let countuoc=0;
+            for(i = 2 ;count<number ; i++){
+                for(j = 1 ; j <= i ; j++){
+                    if(i % j ==0){
+                        countuoc++;
+                    }
+                }
+                if(countuoc==2){
+                        document.write(i);
+                        document.write("<br>");
+                        count++;
+                    } 
+                    countuoc=0;
+            }
+    
+    </script>
+</body>
+</html>

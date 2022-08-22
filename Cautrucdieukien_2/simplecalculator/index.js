@@ -9,3 +9,4 @@ function result() {
 function xoa() {
     view.value="";
 }
+ 
